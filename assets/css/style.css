@@ -1,0 +1,147 @@
+    /*Estilo da página index*/
+    
+    body {
+        /*background-color: #8892b3;*/
+        /*background-color: #767f9b;*/
+        background-color: #636980;
+    }
+    
+    #menu li {
+        display: inline;
+        padding: 15px;
+    }
+    
+    #menu li a {
+        padding: 8px;
+        background-color: gray;
+        border-radius: 10px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 20px;
+    }
+    
+    #menu li a:hover {
+        color: black
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .container {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    
+    .texto {
+        padding: 30px;
+        text-align: justify;
+        color: whitesmoke;
+    }
+    
+    .br-50 {
+        border-radius: 50%;
+    }
+    
+    .wh-300 {
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: whitesmoke;
+        margin-top: 100px;
+    }
+    
+    h2 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: whitesmoke;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #video1 {
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    
+    #video2 {
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    
+    #video3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .tm1 {
+        width: 50px;
+        height: 50px;
+        padding: 30px;
+    }
+    
+    .tm2 {
+        width: 95px;
+        height: 55px;
+        padding: 30px;
+    }
+    
+    header {
+        min-height: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        border-bottom: 1px solid #ccc;
+        background: #ECECEC;
+        z-index: 2;
+    }
+    /*Estilo da página contato"*/
+    
+    .ml-50 {
+        margin-left: 50px;
+    }
+    
+    .botao {
+        border: 1px solid gray;
+        border-radius: 4px;
+        display: inline-block;
+        cursor: pointer;
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 13px;
+        padding: 6px 10px;
+        text-decoration: none;
+    }
+    
+    .nomes {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: whitesmoke;
+    }
+    
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: whitesmoke;
+    }
